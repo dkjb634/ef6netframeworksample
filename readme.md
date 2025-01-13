@@ -3,6 +3,7 @@
 * Go to WcfService1/App.config;
 * Ensure the connection string is valid and points to a proper database `connectionString="Server=localhost;Database=blog;Trusted_Connection=True;"`
 * Establish connection to via "Databases" tool window;
+* Disable ReSharper build (File | Settings | Build, Execution, Deployment | Toolset and Build) to avoid this issue: https://youtrack.jetbrains.com/issue/RIDER-94015
 * Right-click on project name in explorer and select "Entity Framework | Enable Migrations";
 * Select "Ok";
 * Right-click on project name in explorer and select "Entity Framework | Add Migration";
