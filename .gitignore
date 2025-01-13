@@ -1,0 +1,99 @@
+﻿# Ignore build output directories
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Ignore Visual Studio working files
+.vs/
+.vscode/
+*.vcxproj.user
+*.vcxproj.filters
+ipch/
+*.pdb
+
+# Ignore publish output
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ppPackages/
+*.Publish.xml
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+# Ignore temporary files
+~$*
+*.tmp
+*.bak
+*.swp
+*.log
+*.orig
+*~
+
+# Ignore Web Form/WCF auto-generated and compiled files
+*.designer.cs
+*.generated.cs
+*.g.i.cs
+Service References/
+
+# Ignore config transformations or secrets
+appsettings.*.json
+web.*.config
+*.config.secret
+*.cer
+*.pfx
+
+# Ignore IIS Express settings
+.vs/Config/
+applicationhost.config
+
+# Ignore test results
+TestResults/
+*.trx
+.trx/
+*.Coverage
+*.coverage
+
+# Ignore yarn/npm build artifacts
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Ignore files related to documentation
+*.docstates
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore JetBrains Rider files
+.idea/
+.idea/*
+
+# Ignore temporary WCF metadata files
+Service References/*.wsdl
+Service References/*.xsd
